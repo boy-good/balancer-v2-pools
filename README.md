@@ -14,6 +14,10 @@ The SDK tries to be as lean as possible in order to prioritize certain critical 
 
 ### Usage instructions
 
+**use demo: https://github.com/balancer-labs/balancer-sor/blob/john/v2-package-linear/src/pools/stablePool/stablePool.ts#L191**
+
+**StableMath -> All values need to be filled in with 18 bits of precision, eg: 1 USDC => 10\**18***
+
 ```typescript
 import { JsonRpcProvider } from "@ethersproject/providers";
 import { WeightedPool } from "@georgeroman/balancer-v2-pools";
